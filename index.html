@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>User Details</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Cedarville+Cursive&family=Josefin+Sans:ital,wght@0,300;0,600;1,300;1,500;1,700&family=Manrope:wght@400;600;800&family=Montserrat:wght@300;400;700&family=Open+Sans&family=Oswald:wght@400;500;700&family=Playfair+Display:wght@700&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200&family=Work+Sans:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <h2 id="Add-User-title">Add User</h2>
+        <form action="#">
+            <label for="imageInput" id="imgInput">IMAGE URL:</label>
+            <input
+                type="text"
+                id="imageInput"
+                placeholder="Ставьте URL-ссылку "
+            />
+            <img src="./images/Swatches.png" id="img-icones" alt="" />
+        </form>
+
+        <form action="#">
+            <label for="firstNameInput" id="imgInput">FIRST NAME:</label>
+            <input
+                type="text"
+                id="firstNameInput"
+                placeholder="Введите свое имя"
+            />
+            <img src="./images/MagicWand.png" id="img-icones" alt="" />
+        </form>
+        <form action="#">
+            <label for="lastNameInput" id="imgInput">LAST NAME:</label>
+            <input
+                type="text"
+                id="lastNameInput"
+                placeholder="Введите свою фамилию"
+            />
+            <img src="./images/Planet.png" id="img-icones" alt="" />
+        </form>
+        <form action="#">
+            <button id="addButton">ADD</button>
+        </form>
+        <div id="output"></div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
